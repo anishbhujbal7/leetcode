@@ -21,6 +21,6 @@ public:
         } 
 
         // The answer is the cost to reach the last step
-        return prev1;
+        return min(prev1,prev2);
     }
 };
