@@ -3,7 +3,6 @@ public:
     vector<int> findAnagrams(string s, string p) {
        int m=s.size();
        int n=p.size();
-       
        vector<int> res;
        vector<int> hash(26,0);
         for(int j=0;j<n;j++){
